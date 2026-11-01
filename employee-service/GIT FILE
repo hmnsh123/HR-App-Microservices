@@ -1,0 +1,10 @@
+git status
+git pull                    # 1. Sync remote changes
+git switch -c my-feature    # 2. Create feature branch
+# (write code)
+git diff                    # 3. Inspect what changed
+git add .                   # 4. Stage
+git commit -m "MSG"         # 5. Save snapshot
+git switch main             # 6. Go to main
+git merge my-feature        # 7. Merge feature
+git push origin main        # 8. Send to remote
